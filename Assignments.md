@@ -69,3 +69,17 @@ for i in list:
 ```
 
 3)
+
+```
+#problem 3
+
+numbers = [1,2,3,4,5]
+remove_count = 0
+for i in numbers:
+    if i % 2:
+        numbers.pop(i)
+        remove_count += 1
+   
+print("output = " + str(numbers))
+print("removed elements : {}".format(remove_count))
+```
