@@ -1,5 +1,7 @@
 #import pdb 
 import logging
+import sys
+
 
 # list of numbers and key exists == true
 # list of num and keys does not exits == fasle
@@ -24,6 +26,8 @@ def linear_search(n,x):
 
         if(flag==0):
             print("number not found")
+
+print(sys.argv)
 
 #pdb.set_trace()
 linear_search(1000,50)
